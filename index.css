@@ -860,6 +860,26 @@ footer {
         margin-top: 30px;
     }
 }
+@media screen and (max-width: 700px){
+    .herosectionsubdivtwo{
+        display: none;
+    }
+    .sectiononesubdivone{
+        display: none;
+    }
+    .headersubdivtwo{
+        display: none;
+    }
+    .headersubdivthree ul li a,.headersubdivone ul li a{
+      
+        font-size: 12px;
+
+    }
+    .headersubdivone ul li a {
+        padding-right: 45px;
+    }
+   
+}
 @media (min-width: 1500px) and (max-width: 1920px) {
     .headermaindiv{
         justify-content: space-between;
@@ -977,4 +997,7 @@ footer {
     }
    
 
-}                    
+}  
+body{
+    overflow-x: hidden;
+}                  
